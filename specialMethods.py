@@ -15,6 +15,9 @@ class Mobile():
 
     def __str__(self):
         return f"{self.brand} by {self.country}"
+    
+    def __del__(self):
+        print('my_mobile class has been deleted')
 
 my_mobile = Mobile('asus' , 5000 , 'korean')
 print(len(my_mobile.brand))
@@ -22,5 +25,6 @@ print(my_mobile.country)
 print(len(my_mobile.country))
 print(str(my_mobile))
 print(len(my_mobile))
+del(my_mobile)
 
 
