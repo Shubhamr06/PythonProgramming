@@ -1,5 +1,6 @@
 # Python Special Methods
 # In this program , we are going to find the lenth of class variable , Also we can delete objects created in a class
+#Author - Shubham
 
 
 class Mobile():
